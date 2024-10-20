@@ -1,0 +1,33 @@
+h1 {
+    padding: 16px;
+}
+
+input[type=text] {
+    width: 48%;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.task_list {
+    margin: 32px;
+    list-style: none;
+}
+
+.task_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    &:not(:last-child) { border-bottom: none; }
+    &:nth-child(even) { background-color: #f2f2f2;}
+}
+
+.task_item p {
+    width: 100%;
+    text-align: left;
+}

@@ -1,0 +1,9 @@
+POST http://localhost:3000/task1
+Content-Type: application/json
+
+{
+    "action": "delete",
+    "data": {
+        "id": "m2g6bk1prijqqb1pefo"
+    }
+}

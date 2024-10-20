@@ -1,0 +1,10 @@
+POST http://localhost:3000/task1
+Content-Type: application/json
+
+{
+    "action": "create",
+    "data": {
+        "id": "m2g6bk1prijqqb1pefo",
+        "description": "TaskDescription"
+    }
+}

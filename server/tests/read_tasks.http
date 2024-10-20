@@ -1,0 +1,6 @@
+POST http://localhost:3000/task1
+Content-Type: application/json
+
+{
+    "action": "read"
+}
